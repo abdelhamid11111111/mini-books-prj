@@ -84,7 +84,7 @@ const Dashboard = () => {
                     </thead>
                     <tbody>
                       {
-                        books.map((book: any) => (
+                        books.map((book) => (
                           <tr key={book.id} className="border-t border-t-[#dbe0e6]">
                           <td className="h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
                             {book.title}
